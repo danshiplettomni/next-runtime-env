@@ -1,6 +1,6 @@
 {
-  "name": "next-runtime-env",
-  "version": "0.0.0-development",
+  "name": "@omnilabs/next-runtime-env",
+  "version": "1.7.4",
   "description": "Next.js Runtime Environment Configuration - Populates your environment at runtime rather than build time.",
   "main": "build/index.js",
   "scripts": {
@@ -32,7 +32,6 @@
   },
   "homepage": "https://github.com/expatfile/next-runtime-env#readme",
   "dependencies": {
-    "chalk": "^4.1.2"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.7",

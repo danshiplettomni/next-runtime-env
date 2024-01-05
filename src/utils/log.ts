@@ -1,11 +1,10 @@
-import chalk from 'chalk';
 
 const libraryName = '[next-runtime-env]';
 
 const prefixes = {
-  warn: `- ${chalk.yellow(`warn`)} ${libraryName}`,
-  event: `- ${chalk.magenta(`event`)} ${libraryName}`,
-  ready: `- ${chalk.green(`ready`)} ${libraryName}`,
+  warn: `- ${libraryName}`,
+  event: `- ${libraryName}`,
+  ready: `- ${libraryName}`,
 };
 
 export function warn(message: string) {
