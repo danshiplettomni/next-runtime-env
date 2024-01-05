@@ -1,4 +1,3 @@
-
 const libraryName = '[next-runtime-env]';
 
 const prefixes = {
